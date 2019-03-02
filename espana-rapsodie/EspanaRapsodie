@@ -1,0 +1,42 @@
+\version "2.18.2"
+
+\header {
+  title = ""
+}
+
+global = {
+  \time 3/8
+  \key d \major
+  \tempo 4=80
+}
+
+
+
+Horn = \relative c'' {
+  \global
+  \compressFullBarRests
+  R1 * 4 * 3/8
+  e8-.\ff r e-. r e-. r r d-. r r d-. r |
+  R1 * 2 * 3/8
+  r8 a-.\mf r a-. r a-. r e'-. r f-. r g-. r a-. r g-. r fis-. |
+  r8 (e\mf d\< a d\! e) r (e\f d\< a d\! e) |
+  r8 d-.\ff r e-. r d-. r d (e) e4 (d8) d-. a4 (a8) r r |
+  R1 * 3/8
+  r8 g'->\f g-> \bar "||"
+  \mark \default
+  f-> r r | \bar "||"
+  R1 * 15 * 3/8 |
+  
+  %^"SOLO"
+  r8 d16 d d8 b16 b b8 a a b16 b b8 c b a  |
+  a a16 a a8 b16 b b8 c c d16 d d8 c16 c c8 a a r r | 
+  
+}
+
+\score {
+  <<
+    \new Staff { \Horn }
+  >>
+  \layout { }
+  \midi { }
+}

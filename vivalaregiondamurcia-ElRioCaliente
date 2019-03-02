@@ -1,0 +1,41 @@
+\version "2.18.2"
+
+\paper {
+  #(set-paper-size "a4")
+}
+
+global = {
+  \key g \major
+  \time 4/4
+  \tempo 4=100
+}
+
+classicalGuitar = \relative c' {
+  \global
+  % Music follows here.
+    
+  << {g'8 b,8 e fis e g, b a'} \\ {e,,2 c'}>> |
+  << {g''8 b, e fis e g, b b'} \\ {e,,,2 c'} >> |
+  << {a''8 c, e g fis c dis b'} \\ {a,,2 b} >> | 
+  << {a''8 c, e g fis c dis e'} \\ {a,,,2 b} >>| 
+  << {e''8 fis, a d c e, g d } \\ {c,2 a} >> | 
+  
+  % << {} \\ {} >>| 
+}
+
+\score {
+  \new StaffGroup \with {
+    \consists "Instrument_name_engraver"
+    instrumentName = "Classical guitar"
+    shortInstrumentName = "Gt."
+  } <<
+    \new Staff \with {
+      midiInstrument = "acoustic guitar (nylon)"
+    } { \clef "treble_8" \classicalGuitar }
+    \new TabStaff \with {
+      stringTunings = #guitar-tuning
+    } \classicalGuitar
+  >>
+  \layout { }
+  \midi { }
+}
