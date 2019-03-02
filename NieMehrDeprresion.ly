@@ -1,7 +1,49 @@
-\header {  title = "NieMehrDeprresion"}
+\header {  title = "Nie Mehr Depression"}
 << 
   \new ChordNames { \set chordChanges = ##t \chordmode { 
- r1 r1 r2. g4 d4 a2.:min g2 d2 c2. g2 d2 c2. g2 d2. c1 c4 g1 g4 d1 c1 c4 g1 g2 d1 d4 c1 c2. g2. d2 a4:min c2. g2. a2:min c2. g2 d4 a2:min c2 g4 d1 a1:min a2:min g1 d2. c1 g4 d2 c1 g2 d2 a2.:min c1 c4 g1:maj6 g2:maj6 d1 a4:min c2 g2 d2 c2.:maj7 g2 d2 a2.:min g2 d4 c1 g2 d4 g2:maj7 a1:min g2 d2 c1 c2 g1/d g4/d d1 d4 a1:min a2:min g2. c2. g2 d2. a4:min c1 c4 g1 g4 d1 d4 a1:min a4:min c1 c2 g1 d2:maj7 c2. g2. d2. c1 c1 g1/d g1/d r1 r2 r4
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ g1 d1 a1:min a1:min
+ g1 d1 c1 c1
+ 
  }}  
   \relative c {
     \key g \major
@@ -11,18 +53,19 @@
      r4 r4 r4 r4 
      r4 r4 r4 r4 
      
-     g'' g g g fis g fis fis e fis e 
-     g g g g fis g fis fis g a g 
-     
+    g''4. g8 g4 g4 fis4. g8 fis4 fis e4. fis8 e2 r1 
+    g4. g8 g4 g fis2 g4 fis g2 a4 g r2.
+    r8 g8 g4 g g g fis4. g8 fis4 fis e4. fis8 e4 fis e1
+    g4. g8 g4 g fis2 g4 fis g2 a4 g g1
      
      r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4 r4
   }
   \addlyrics {
     Ich krieg nie mehr De -- pres -- sion seit Ich dich kenn
     Auch wenn ich da -- durch oft im Kreis rum -- renn
-    Ich mach meine Sa -- chen manch -- mal halb
+    Ich ma -- che mei -- ne Sa -- chen manch -- mal halb
     Und man -- chmal kalt
-    Ich geh in den Wald, warum?
+    Ich geh in den Wald, wa -- rum?
     Da ist es kalt
     
     und ich hüpf in die Do -- nau weil ich scheiß mir nix
